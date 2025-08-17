@@ -102,7 +102,7 @@ This script will display the detected IPs in the terminal. You can also choose t
 [PHASE 1] Commencing Subdomain Enumeration...
   [~] Testing mail.example.com -> 182.168.1.1
   [SUCCESS] Potential Origin IP Found: 182.168.1.1
-  [~] Testing api.example.com -> 192.168.1.2
+  [~] Testing api.example.com -> 182.168.1.2
   [SUCCESS] Potential Origin IP Found: 182.168.1.2
 
 [PHASE 2] Analyzing MX Records...
