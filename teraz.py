@@ -19,9 +19,9 @@ logo = """
 print(colored(logo, "cyan", attrs=["bold"]))
 
 COMMON_SUBDOMAINS = [
-    "www", "mail", "ftp", "api", "dev", "staging", "test", "blog", "admin", 
+    "mail", "ftp", "api", "dev", "staging", "test", "blog", "admin", 
     "portal", "shop", "docs", "support", "vpn", "status", "account", "assets", 
-    "cdn", "secure", "images", "files", "backup", "webmail", "m", "pay", 
+    "cdn", "secure", "images", "files", "backup", "webmail", "pay", 
     "users", "mail2", "dashboard", "chat", "help", "management", "ci", "git", 
     "devops", "cloud", "public", "fileserver", "webdav"
 ]
