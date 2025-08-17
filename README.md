@@ -89,20 +89,28 @@ This script will display the detected IPs in the terminal. You can also choose t
 ### Example Output:
 
 ```
+  ________________  ___ _____ 
+ /_  __/ ____/ __ \/   /__  / 
+  / / / __/ / /_/ / /| | / / 
+ / / / /___/ _, _/ ___ |/ /__ 
+/_/ /_____/_/ |_/_/  |_/____/ v1.0
+         By github.com/bimantaraz
+
+[INFO] Loaded 20 Cloudflare IP ranges.
 --- Initiating Reconnaissance for example.com ---
 [INFO] Loaded 20 Cloudflare IP ranges.
 [PHASE 1] Commencing Subdomain Enumeration...
-  [~] Testing mail.example.com -> 192.168.1.1
-  [SUCCESS] Potential Origin IP Found: 192.168.1.1
+  [~] Testing mail.example.com -> 182.168.1.1
+  [SUCCESS] Potential Origin IP Found: 182.168.1.1
   [~] Testing api.example.com -> 192.168.1.2
-  [SUCCESS] Potential Origin IP Found: 192.168.1.2
+  [SUCCESS] Potential Origin IP Found: 182.168.1.2
 
 [PHASE 2] Analyzing MX Records...
   [~] Found MX record: mail.example.com
-  [SUCCESS] Potential Origin IP Found: 192.168.1.1
+  [SUCCESS] Potential Origin IP Found: 182.168.1.1
 
 --- Reconnaissance Complete ---
 Found the following potential origin IPs:
-  -> 192.168.1.1
-  -> 192.168.1.2
+  -> 182.168.1.1
+  -> 182.168.1.2
 ```
